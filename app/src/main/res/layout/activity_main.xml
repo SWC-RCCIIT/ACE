@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+  >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="G-ONE"
+        android:layout_marginBottom="55dp"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+<EditText
+    android:id="@+id/name"
+    android:hint="Enter your name"
+    android:paddingLeft="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/buttonshape"
+    android:layout_marginBottom="15dp"
+    />
+    <EditText
+        android:id="@+id/phone"
+        android:hint="Enter your phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+android:inputType="phone"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttonshape"/>
+    <EditText
+        android:enabled="false"
+        android:id="@+id/otp"
+        android:hint="Enter otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+android:inputType="number"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/buttonshape"/>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="15dp"
+        android:text="Submit"/>
+    <Button
+        android:visibility="gone"
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Verify"/>
+</LinearLayout>

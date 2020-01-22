@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".HomeScreen">
+<Button
+    android:id="@+id/med_hist"
+    android:layout_width="match_parent"
+    android:background="@drawable/button_background"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:text="Med history"/>
+    <Button
+        android:id="@+id/findDoctor"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_background"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Find a doctor"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/button_background"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Maps and Locations"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/button_background"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Valet"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/button_background"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Government Schemes"/>
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:background="@drawable/button_background"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Lggout"/>
+
+
+</LinearLayout>
