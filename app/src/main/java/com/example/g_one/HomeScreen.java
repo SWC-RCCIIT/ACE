@@ -22,6 +22,7 @@ public class HomeScreen extends AppCompatActivity {
         number = suburb;
         b1=(Button)findViewById(R.id.med_hist);
         b2=(Button)findViewById(R.id.logout);
+        b3= (Button)findViewById(R.id.findDoctor);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -35,6 +36,13 @@ public class HomeScreen extends AppCompatActivity {
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
                 Intent i = new Intent(HomeScreen.this,MainActivity.class);
+                startActivity(i);
+            }
+        });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomeScreen.this,FindDoc.class);
                 startActivity(i);
             }
         });
